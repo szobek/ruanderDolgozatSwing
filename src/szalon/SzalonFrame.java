@@ -25,7 +25,7 @@ public class SzalonFrame {
 	private JFrame frame;
 	
 	private DefaultListModel model;
-	private JList<Ora> orak;
+	private JList<Ora> orak = new JList();
 private List<Ora> oraLista = new ArrayList<Ora>();	
 	
 	private JTextField textFieldNev;
